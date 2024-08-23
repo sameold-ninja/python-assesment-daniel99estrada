@@ -1,0 +1,23 @@
+username = "Mason"
+password = "Mut"
+
+playerinput = input("Whats your username ")
+
+if playerinput == username:
+  
+  print("Now type in your password")
+  
+playerpass = input("Whats your password ")
+
+if playerpass == password:
+
+  print("")
+
+else:
+
+  print("Wrong Username or Password! Try Again")
+
+if playerpass == password and playerinput == username:
+
+  print(" ")
+  print("Welcome to the game!")
